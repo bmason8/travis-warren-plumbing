@@ -1,0 +1,131 @@
+body {
+/*    font-family: 'Josefin Sans', sans-serif;*/font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+}
+.icon-black {
+    color: black;
+}
+.logo-image {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.hightlights-section {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+#expandable-section {
+    text-align: center;
+/*    font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Kaushan Script', cursive;
+}
+/*
+.image-spacing {
+    padding: 8px !important;
+}
+*/
+h3 {
+    color: #e0e0e0;
+}
+.dark-background {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.custom-font {
+    font-family: 'Quicksand', sans-serif;
+}
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.my-work-header {
+    background-color: #c62828;
+    margin: 24px;
+}
+.about-me-header {
+    background-color: #1e88e5;
+    margin: 24px;
+}
+.collapsible-body{
+    background-color: white !important;
+}
+.collapsible-header {
+    background-color: #c62828;
+    border: 1 !important;
+}
+.about-me-color {
+    background-color: #1e88e5;
+}
+.expandable-headers {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+#footer-container {
+    padding-left: 24px;
+}
+.expandable-bars {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 1px 2px 0 rgba(0,0,0,0.12), 0 1px 1px -2px rgba(0,0,0,0.2) !important;
+}
+.contact-info {
+    padding-bottom: 20px;
+}
+h2, .services-header {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 600;
+}
+.services-list {
+    margin: 0px 48px 24px 48px;
+}
+.services-item {
+    background-color: #eeeeee !important;
+}
+.service-list {
+    padding: 0px 24px 0px 24px !important;
+/*    margin: 0px 30px 0px 30px !important;*/
+}
+.service-list-right {
+    padding-left: 30px !important;
+}
+.img-circle {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    max-width: 25%;
+    height: auto;
+}
+.valign-wrapper {
+    display: block !important;
+}
+
+/*Image Gallery code*/
+#imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.galleryItem {
+  flex: 1 300px;
+  margin: 0.5rem;
+}
+.galleryItem img {
+  width: 100%;
+}
+
+a.highlight:hover {
+    color: #1e88e5 !important;
+}
+.travis-greeting {
+    margin-bottom: 12px !important;
+}
+footer p {
+    font-size: 1.2rem;
+}
